@@ -6,3 +6,6 @@ Bootstrap (Introdução).pdf
 
 # Configurações de IDE (VS Code)
 .vscode/
+
+# Ignora a página node_modules
+node_modules/
