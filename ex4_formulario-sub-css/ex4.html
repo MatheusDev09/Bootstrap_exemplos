@@ -18,7 +18,45 @@
 
 
     <!-- 1ª Digitação (Aqui) -->
-     
+
+    <div class="container mt-3">
+        <form class="custom-form">
+            <h1 class="text-white mb-3">Página de Login</h1>
+            <!-- Nome de usuário -->
+
+            <div class="col-sm-6 mb-3">
+                <div class="input-group"> 
+                <span class="input-group-text custom-icon">
+                    <i class="bi bi-person-fill"></i>
+                </span>
+                    <input class="form-control custom-input" type="text" id="username" name="username" placeholder="Nome de usuário">
+            </div>
+        </div>
+
+            <!-- Senha (Escondida/Hidden) -->
+
+            <div class="col-sm-6 mb-3">
+                <div class="input-group">
+                    <span class="input-group-text custom-icon">
+                        <i class="bi bi-fingerprint"></i>
+                    </span>
+                <input class="form-control custom-input" type="password" id="password" name="password" placeholder="Senha">
+            </div>
+        </div>
+
+            <!-- Email (com verificação por type) -->
+            <div class="col-sm-6 mb-3">
+                <div class="input-group">
+                    <span class="input-group-text custom-icon">
+                        <i class="bi bi-envelope-fill"></i>
+                    </span>
+                <input class="form-control custom-input" type="email" id="password" name="password" placeholder="E-mail">
+            </div>
+        </div>
+            <button class="custom-button" type="submit">Enviar</button>
+            <span class="text-white">Novo aqui?</span>
+            <a class="custom-button" href="#">Cadastre-se agora</a>
+        </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

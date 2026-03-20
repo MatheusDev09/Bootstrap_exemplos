@@ -1,1 +1,26 @@
 /* 2ª Digitação (Aqui) */
+.custom-form {
+    background: linear-gradient(145deg, #2c3e50, #3498db);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.custom-icon {
+    background-color: #3498db;
+    border: #3498db;
+    opacity: 75%;
+}
+
+.custom-icon:hover{
+    opacity: 100%
+}
+
+.custom-button {
+    background: linear-gradient(45deg, #e74c3c, #f39c12);
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    color: white;
+}

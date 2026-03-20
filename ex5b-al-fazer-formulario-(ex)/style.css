@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.custom-form { /* Customização do form, alinhamento de tudo dentro dele, cor, e o filtro de "relevo" */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    gap: 15px;
+}
+
+.container-custom { /* Eu estava usando container normal. Mas não estava como eu queria. E decidi não mudar as classes do Bootstrap e fazer uma customizada. */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-custom { /* Arruma o width do botão. Com o align items do form, ele fica só o necessário; Assim, eu estico ele pra ficar bonito */
+    width: 100%;
+}
+
+.form-group-custom { /* Arruma o width dos Inputs novamente. Devido as características do pai, sem isso, ele fica bugado. */
+    width: 100%;
+    opacity: 90%;
+}
+
+.form-group-custom:hover{
+    opacity: 100%;
+}
