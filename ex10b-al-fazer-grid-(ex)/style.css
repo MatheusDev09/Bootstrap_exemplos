@@ -1,0 +1,21 @@
+ /* Centralizar o carrossel */
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .carousel-inner img {
+            margin: auto;
+        }
+
+        .carousel-item {
+            height: 500px;
+            background-color: black;
+        }
+
+        .carousel-item img {
+            height: 80%;
+            width: 100%;
+            object-fit: contain
+        }

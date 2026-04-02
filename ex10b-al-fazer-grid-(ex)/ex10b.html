@@ -5,29 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Promoções da Loja</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Centralizar o carrossel */
-        .carousel-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .carousel-inner img {
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar navvar-expand-lg navbar-dark bg-dark">
+    <!-- Navbar personalizada e responsiva -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
             </button>
             <div class="collapse navbar-collapse" id="hamburger">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Início</a>
                     </li>
@@ -42,6 +32,46 @@
         </div>
     </nav>
 
+    <!-- Carrousel-->
+<div id="carouselExampleCaptions" class="carousel slide">
+<div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+
+<div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="empresa1.jpg" class="d-block w-100 img-fluid" alt="first slide">
+    <div class="carousel-caption d-none d-md-block">
+        <h5>Atlus TEAM</h5>
+        <p>Criadora da linha Shin Megami Tensei e Persona.</p>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <img src="empresa2.png" class="d-block w-100 img fluid" alt="second slide">
+    <div class="carousel-caption d-none d-md-block">
+        <h5>Synthetizer V</h5>
+        <p>Empresa responsável por diversas artistas digitais. Kasane Teto, Kaito, a imaginação é o limite.</p>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <img src="empresa3.jpeg" class="d-block w-100 img-fluid img-empresa3" alt="third slide">
+    <div class="carousel-caption d-none d-md-block">
+        <h5>Project Moon</h5>
+        <p>Empresa responsável por midías audiovisuais, um mundo fantasioso na palma da sua mão.</p>
+    </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
